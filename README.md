@@ -16,7 +16,7 @@ Instead of training a high-accuracy black-box model which may be difficult to tr
 
 Here are how different models make predictions about a severely infected patient.
 
-#### Correct Predictions
+#### 【Correct Predictions】
 
 **Neural networks** makes correct prediction, because it thinks the patient is old, and has a high CRP which indicates severe virus infection, and a high NTproBNP. 
 
@@ -26,7 +26,7 @@ Here are how different models make predictions about a severely infected patient
 
 ![](shap_xgb_5.jpg)
 
-#### Wrong Predictions
+#### 【Wrong Predictions】
 
 **Decision Trees** unfortunately makes a wrong prediction, because it thinks even though the patient is having a fever (38.4), but the CRP and NTproBNP is not high enough to be severe.
 
