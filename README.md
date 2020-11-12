@@ -1,8 +1,20 @@
 ## Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task
 
-> Understanding why black-box models make correct predictions, what they see in the pancemic.
+> Understanding why black-box models make correct predictions, and what they see in the pancemic.
 
 https://arxiv.org/abs/2010.02006
+
+
+```
+@misc{wu2020interpretable,
+      title={Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task}, 
+      author={Han Wu and Wenjie Ruan and Jiangtao Wang and Dingchang Zheng and Shaolin Li and Jian Chen and Kunwei Li and Xiangfei Chai and Sumi Helal},
+      year={2020},
+      eprint={2010.02006},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 ### Introduction
 
@@ -36,17 +48,3 @@ Here are how different models make predictions about a severely infected patient
 
 > The raw dataset comes from hospitals in China, including 92 patients contracted COVID-19.
 > Our Research Ethics Committee waived written informed consent for this retrospective study that evaluated de-identified data and involved no potential risk to patients. All of the data of patients have been anonymized before analysis.
-
-
-
-```
-@misc{wu2020interpretable,
-      title={Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task}, 
-      author={Han Wu and Wenjie Ruan and Jiangtao Wang and Dingchang Zheng and Shaolin Li and Jian Chen and Kunwei Li and Xiangfei Chai and Sumi Helal},
-      year={2020},
-      eprint={2010.02006},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
-
