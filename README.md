@@ -1,5 +1,7 @@
 ## Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task
 
+> Understanding why black-box models make correct predictions, what they see in the pancemic.
+
 https://arxiv.org/abs/2010.02006
 
 ### Introduction
@@ -29,6 +31,11 @@ Here are how different models make predictions about a severely infected patient
 **Decision Trees** unfortunately makes a wrong prediction, because it thinks even though the patient is having a fever (38.4), but the CRP and NTproBNP is not high enough to be severe.
 
 ![](./shap_rf_5.jpg)
+
+
+
+> The raw dataset comes from hospitals in China, including 92 patients contracted COVID-19.
+> Our Research Ethics Committee waived written informed consent for this retrospective study that evaluated de-identified data and involved no potential risk to patients. All of the data of patients have been anonymized before analysis.
 
 
 
