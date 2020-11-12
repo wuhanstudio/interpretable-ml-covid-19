@@ -32,7 +32,7 @@ Here are how different models make predictions about a severely infected patient
 
 ![](./shap_rf_5.jpg)
 
-
+### Credits
 
 > The raw dataset comes from hospitals in China, including 92 patients contracted COVID-19.
 > Our Research Ethics Committee waived written informed consent for this retrospective study that evaluated de-identified data and involved no potential risk to patients. All of the data of patients have been anonymized before analysis.
