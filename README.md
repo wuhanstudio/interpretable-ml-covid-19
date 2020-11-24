@@ -32,6 +32,8 @@ Here are how different models make predictions about a severely infected patient
 
 ![](./shap_rf_5.jpg)
 
+<iframe src='https://1drv.ms/p/s!AhM6EYSE53owgX-Z9LDI8An7Lmm_?e=V37mwr]' width='100%' height='600px' frameborder='0'>
+
 ### Credits
 
 > The raw dataset comes from hospitals in China, including 92 patients contracted COVID-19.
