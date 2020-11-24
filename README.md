@@ -4,6 +4,9 @@
 
 https://arxiv.org/abs/2010.02006
 
+[Slides Available Here](https://github.com/wuhanstudio/interpretable-ml-covid-19/blob/master/Interpretable-ml-covid19.pdf)
+![Introduction](./intro.png)
+
 ### Introduction
 
 In this research, we try to understand why those black-box models can make correct predictions. Is it possible to let black-box models speak, telling us how they make predictions? Will medical practitioners benefit from these models? 
@@ -31,8 +34,6 @@ Here are how different models make predictions about a severely infected patient
 **Decision Trees** unfortunately makes a wrong prediction, because it thinks even though the patient is having a fever (38.4), but the CRP and NTproBNP is not high enough to be severe.
 
 ![](./shap_rf_5.jpg)
-
-<iframe src='https://1drv.ms/p/s!AhM6EYSE53owgX-Z9LDI8An7Lmm_?e=V37mwr]' width='100%' height='600px' frameborder='0'>
 
 ### Credits
 
