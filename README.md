@@ -5,7 +5,7 @@
 https://arxiv.org/abs/2010.02006
 
 [Slides Available Here](https://github.com/wuhanstudio/interpretable-ml-covid-19/blob/master/Interpretable-ml-covid19.pdf)
-![Introduction](./intro.png)
+![Introduction](./doc/intro.png)
 
 ### Introduction
 
@@ -23,17 +23,17 @@ Here are how different models make predictions about a severely infected patient
 
 **Neural networks** makes correct prediction, because it thinks the patient is old, and has a high CRP which indicates severe virus infection, and a high NTproBNP. 
 
-![](./shap_nn_5.jpg)
+![](./doc/shap_nn_5.jpg)
 
 **Gradient Boosted Trees** makes similar correct prediction, because it thinks the patient has a high CRP and NTproBNP, even though the patient shows little symptoms ( = 0).
 
-![](shap_xgb_5.jpg)
+![](./doc/shap_xgb_5.jpg)
 
 #### 【Wrong Predictions】
 
 **Decision Trees** unfortunately makes a wrong prediction, because it thinks even though the patient is having a fever (38.4), but the CRP and NTproBNP is not high enough to be severe.
 
-![](./shap_rf_5.jpg)
+![](./doc/shap_rf_5.jpg)
 
 ### Credits
 
