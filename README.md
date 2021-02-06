@@ -1,44 +1,44 @@
 ## Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task
 
-> Understanding why black-box models make correct predictions, and what they see in the pancemic.
+> Understanding how black-box models make predictions, and what they see in the pandemic.
 
 https://arxiv.org/abs/2010.02006
 
+<a href="https://youtu.be/klOPynfwVmI"><img src="doc/video.png"></a>
+
 [Slides Available Here](https://github.com/wuhanstudio/interpretable-ml-covid-19/blob/master/Interpretable-ml-covid19.pdf)
+
 ![Introduction](./doc/intro.png)
 
 ### Introduction
 
-In this research, we try to understand why those black-box models can make correct predictions. Is it possible to let black-box models speak, telling us how they make predictions? Will medical practitioners benefit from these models? 
+The pandemic is a race against time. We seek to answer the question, how can medical practitioners employ machine learning to win the race in the pandemic?  
 
-Facing the sudden outbreak of COVID-19, it can be tough for humans to understand this new virus immediately, due to the surge of infected patients. However, machine learning models can be trained in minutes and then make correct predictions in the COVID-19 severity prediction task. But why and how?
+Instead of targeting at a high-accuracy black-box model that is difficult to trust and deploy, we use model interpretation that incorporates medical practitioners' prior knowledge to promptly reveal the most important indicators in early diagnosis, and thus win the race in the pandemic.  
 
 ### Understanding high-accuracy Black-box models
 
-Instead of training a high-accuracy black-box model which may be difficult to trust, and deploy in medical applications, this research explores the possibility of using interpretable machine learning to unveil rationality under high-accuracy models.
-
-Here are how different models make predictions about a severely infected patient.
+In this research, we try to understand why those black-box models can make correct predictions. Is it possible to let black-box models speak, telling us how they make predictions? Will medical practitioners benefit from these models?  
 
 #### 【Correct Predictions】
 
-**Neural networks** makes correct prediction, because it thinks the patient is old, and has a high CRP which indicates severe virus infection, and a high NTproBNP. 
+**Neural networks** make a correct prediction because it thinks the patient is old and has a high CRP which indicates severe virus infection, and a high NTproBNP.  
 
 ![](./doc/shap_nn_5.jpg)
 
-**Gradient Boosted Trees** makes similar correct prediction, because it thinks the patient has a high CRP and NTproBNP, even though the patient shows little symptoms ( = 0).
+**Gradient Boosted Trees** makes a similar correct prediction because it thinks the patient has a high CRP and NTproBNP, even though the patient shows little symptoms ( = 0).
 
 ![](./doc/shap_xgb_5.jpg)
 
 #### 【Wrong Predictions】
 
-**Decision Trees** unfortunately makes a wrong prediction, because it thinks even though the patient is having a fever (38.4), but the CRP and NTproBNP is not high enough to be severe.
+**Decision Trees** unfortunately makes a wrong prediction, because it thinks even though the patient is having a fever (38.4), but the CRP and NTproBNP are not high enough to be severe.
 
 ![](./doc/shap_rf_5.jpg)
 
 ### Credits
 
-> The raw dataset comes from hospitals in China, including 92 patients contracted COVID-19.
-> Our Research Ethics Committee waived written informed consent for this retrospective study that evaluated de-identified data and involved no potential risk to patients. All of the data of patients have been anonymized before analysis.
+> The raw dataset comes from hospitals in China, including 92 patients who contracted COVID-19. Our Research Ethics Committee waived written informed consent for this retrospective study that evaluated de-identified data and involved no potential risk to patients. All of the data of patients have been anonymized before analysis.
 
 
 ```
