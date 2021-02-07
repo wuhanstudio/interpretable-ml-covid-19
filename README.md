@@ -4,6 +4,8 @@
 
 https://arxiv.org/abs/2010.02006
 
+![](doc/video.gif)
+
 <a href="https://youtu.be/klOPynfwVmI"><img src="doc/video.png"></a>
 
 [Slides Available Here](https://github.com/wuhanstudio/interpretable-ml-covid-19/blob/master/Interpretable-ml-covid19.pdf)
