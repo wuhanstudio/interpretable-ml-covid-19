@@ -44,10 +44,10 @@ In this research, we try to understand why those black-box models can make corre
 
 
 ```
-@misc{wu2020interpretable,
+@misc{wu2021interpretable,
       title={Interpretable Machine Learning for COVID-19: An Empirical Study on Severity Prediction Task}, 
-      author={Han Wu and Wenjie Ruan and Jiangtao Wang and Dingchang Zheng and Shaolin Li and Jian Chen and Kunwei Li and Xiangfei Chai and Sumi Helal},
-      year={2020},
+      author={Han Wu and Wenjie Ruan and Jiangtao Wang and Dingchang Zheng and Bei Liu and Yayuan Gen and Shaolin Li and Jian Chen and Kunwei Li and Xiangfei Chai and Sumi Helal},
+      year={2021},
       eprint={2010.02006},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
